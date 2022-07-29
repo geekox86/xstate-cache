@@ -1,0 +1,18 @@
+{
+  "name": "xstate-cache",
+  "packageManager": "yarn@3.2.2",
+  "dependencies": {
+    "xstate": "^4.32.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "@yarnpkg/sdks": "^3.0.0-rc.14",
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}

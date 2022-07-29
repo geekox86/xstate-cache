@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "paths": {
+      "@/*": ["./src/*"],
+      "$/*": ["./lib/*"]
+    },
+    "resolveJsonModule": true,
+    "types": ["jest"],
+
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "skipLibCheck": true
+  }
+}
